@@ -2,7 +2,7 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 module.exports = {
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     fontSize: {
       xs: [
@@ -90,14 +90,10 @@ module.exports = {
       },
       colors: {
         // Gray
-        "primary": "#101010",
-  "secondary": "#1a1a1a",
-  "tertiary": "#262626",
-        // Purple
-        //primary:"#080118",
-        //secondary:"#140d23",
-        //tertiary:"#1d1333",
-        white:"#ececec",
+        primary: "#F3D7CA",
+        secondary: "#E6A4B4",
+        tertiary: "#F3D7CA",
+        white: "#FFF8E3",
       },
       borderRadius: {
         "4xl": "2rem",
@@ -110,7 +106,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
+    require("@tailwindcss/typography"),
     // ...
   ],
-}
+};
