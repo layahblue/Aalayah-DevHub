@@ -90,10 +90,11 @@ module.exports = {
       },
       colors: {
         // Gray
-        primary: "#F3D7CA",
-        secondary: "#E6A4B4",
-        tertiary: "#F3D7CA",
-        white: "#FFF8E3",
+        primary: "#94618E",
+        secondary: "#F4DEC8",
+        tertiary: "#F4DEC8",
+        white: "#94618E",
+        black: "#212529"
       },
       borderRadius: {
         "4xl": "2rem",
